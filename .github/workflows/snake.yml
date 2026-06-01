@@ -35,8 +35,8 @@ jobs:
           # 定义输出文件和样式
           # outputs: [输出路径]?palette=[调色板]&color_snake=[蛇颜色]&color_dots=[点颜色]
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-Light.svg
+            dist/github-snake-Dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       # 第二步：将生成的文件推送到 output 分支
